@@ -77,9 +77,6 @@ navbar:
       icon: fas fa-image
       url: https://7bu.top
       target: _blank
-    - name: # 可自定义
-      icon: fas fa-moon # 可自定义
-      toggle: darkmode
   search: 键入关键词按「回车」搜索   # Search bar placeholder
 ############################### Navigation Bar ############################### > end
 
@@ -786,7 +783,7 @@ plugins:
   #   icon: fas fa-moon # 可自定义
   #   toggle: darkmode
   darkmodejs:
-    enable: true
+    enable: false
 
   # 旧版 Internet Explorer 淘汰行动
   # https://www.microsoft.com/zh-cn/WindowsForBusiness/End-of-IE-support
