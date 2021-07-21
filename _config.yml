@@ -670,7 +670,7 @@ plugins:
   highlightjs:
     enable: true # Please set hexo.config.highlight.enable = false !!!
     js: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.1.0/build/highlight.min.js
-    css: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.1.0/build/styles/nord.min.css
+    css: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.1.0/build/styles/obsidian.min.css
     # more: https://www.jsdelivr.com/package/npm/highlight.js?path=styles
 
   # https://scrollrevealjs.org/api/reveal.html
