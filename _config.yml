@@ -80,7 +80,7 @@ navbar:
     - name: # 可自定义
       icon: fas fa-moon # 可自定义
       toggle: darkmode
-  search: Search...   # Search bar placeholder
+  search: 键入关键词按「回车」搜索   # Search bar placeholder
 ############################### Navigation Bar ############################### > end
 
 
