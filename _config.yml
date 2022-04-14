@@ -1101,7 +1101,7 @@ rightmenus:
     - plugins.inputBox
     - plugins.seletctText
     - plugins.elementCheck
-    - menus.link
+    # - menus.link
     - hr
     - menus.darkMode
     - plugins.articlePage
@@ -1151,7 +1151,7 @@ rightmenus:
     seletctText:
       - {id: 'copyText', name: '复制文本', icon: 'fa-solid fa-copy', event: 'copyText', group: 'seletctText'}
       - {id: 'searchWord', name: '站内搜索', icon: 'fa-solid fa-search', event: 'OpenSearch(__text__)', group: 'seletctText'}
-      - {id: 'bingSearch', name: '必应搜索', icon: 'fa-solid fa-search', event: 'window.open(`https://cn.bing.com/search?q=${__text__}`)', group: 'seletctText'}
+      - {id: 'bingSearch', name: '百度搜索', icon: 'fa-solid fa-search', event: 'window.open(`https://www.baidu.com/s?wd=${__text__}`)', group: 'seletctText'}
       #- {id: 'googleSearch', name: '谷歌搜索', icon: 'fa-solid fa-search', event: 'window.open(`https://www.google.com/search?q=${__text__}`)', group: 'seletctText'}
     # 元素判断组件
     # 生效于 a/img 处的右键行为，__link__ 为链接地址
