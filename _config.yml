@@ -457,7 +457,7 @@ comments:
     avatar: robohash # gravatar style https://waline.js.org/client/basic.html#avatar
     avatarCDN: #https://sdn.geekzu.org/avatar/
     emoji: [
-      'https://dusays.com/media/Sticker-100/',
+      'https://npm.elemecdn.com/sticker-heo@0.17.2/Sticker-100/',
     ]
     pageSize: 10 # 评论每页显示数量
     lang: zh-CN
