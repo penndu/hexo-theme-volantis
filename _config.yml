@@ -1101,7 +1101,7 @@ rightmenus:
     - plugins.inputBox
     - plugins.seletctText
     - plugins.elementCheck
-    # - menus.link
+    - menus.link
     - hr
     - menus.darkMode
     - plugins.articlePage
@@ -1168,12 +1168,12 @@ rightmenus:
   # 右键自定义菜单区域
   menus:
     link:
-      - {id: 'help', name: '常见问题', icon: 'fa-solid fa-question', link: 'https://volantis.js.org/faqs/', group: 'link'}
-      - {id: 'examples', name: '示例博客', icon: 'fa-solid fa-rss', link: 'https://volantis.js.org/examples/', group: 'link'}
-      - {id: 'contributors', name: '加入社区', icon: 'fa-solid fa-fan', link: 'https://volantis.js.org/contributors/', group: 'link'}
+      - {id: 'help', name: '去不图床', icon: 'fa-solid fa-question', link: 'https://test.7bu.top/', group: 'link'}
+      - {id: 'examples', name: '提卡系统', icon: 'fa-solid fa-rss', link: 'https://pay.dusays.com/', group: 'link'}
+      - {id: 'contributors', name: '赞助平台', icon: 'fa-solid fa-fan', link: 'https://afdian.net/@teacherdu', group: 'link'}
       - hr
-      - {id: 'source_docs', name: '本站源码', icon: 'fa-solid fa-code-branch', link: 'https://github.com/volantis-x/volantis-docs/', group: 'link'}
-      - {id: 'source_theme', name: '主题源码', icon: 'fa-solid fa-code-branch', link: 'https://github.com/volantis-x/hexo-theme-volantis/', group: 'link'}
+      - {id: 'source_docs', name: '文明放置', icon: 'fa-solid fa-code-branch', link: 'https://cy.dusays.com/', group: 'link'}
+      - {id: 'source_theme', name: '我的世界', icon: 'fa-solid fa-code-branch', link: 'https://dusays.com/365/', group: 'link'}
     darkMode: 
       - {id: 'darkMode', name: '暗黑模式', icon: 'fa-solid fa-moon', event: 'volantis.dark.toggle()', group: 'darkMode'}
 ###
