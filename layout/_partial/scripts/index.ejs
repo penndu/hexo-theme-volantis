@@ -98,3 +98,47 @@
 <% if (theme.plugins.nodewaves.enable) { %>
   <%- partial('../../_plugins/nodewaves/script') %>
 <% } %>
+
+<% if (theme.plugins.comment_typing.enable) { %>
+  <%- js(theme.plugins.comment_typing.js) %>
+<% } %>
+
+<% if (theme.plugins.code_highlight) { %>
+  <%- partial('../../_plugins/highlight/script') %>
+<% } %>
+
+<% if (theme.analytics && theme.analytics.leancloud && theme.analytics.leancloud.app_id) { %>
+  <%- partial('../../_plugins/analytics/LCCounter') %>
+<% } %>
+
+<% if (config.google_analytics_key || config.baidu_analytics_key || config.tencent_aegis_id) { %>
+  <%- partial('../../_plugins/analytics/script') %>
+<% } %>
+
+<% if (theme.plugins.chat_service) { %>
+  <%- partial('../../_plugins/chat/index') %>
+<% } %>
+
+<% if (theme.plugins.parallax.enable) { %>
+  <%- partial('../../_plugins/parallax/script') %>
+<% } %>
+
+<% if (theme.plugins.swiper.enable) { %>
+  <%- partial('../../_plugins/swiper/script') %>
+<% } %>
+
+<!-- pjax 标签必须存在于所有页面 否则 pjax error -->
+<pjax>
+<% if (page.plugins) { %>
+<%- partial('../../_plugins/_page_plugins/index') %>
+<% } %>
+</pjax>
+
+<%- partial('toc') %>
+
+<%- partial('content-visibility-scroll-fix') %>
+
+<% if (theme.structured_data && theme.structured_data.enable) { %>
+  <%- structured_data() %>
+<% } %>
+
