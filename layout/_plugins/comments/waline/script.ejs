@@ -8,7 +8,7 @@
       let defaultPath = '<%= theme.comments.waline.path %>';
       path = defaultPath || decodeURI(window.location.pathname);
     }
-    new Waline.init(Object.assign(Object.assign(<%- JSON.stringify(theme.comments.waline) %>, {
+    new Waline(Object.assign(Object.assign(<%- JSON.stringify(theme.comments.waline) %>, {
       el: '#waline',
       path: path,
       placeholder: pagePlaceholder,
