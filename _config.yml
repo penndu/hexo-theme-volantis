@@ -461,6 +461,7 @@ comments:
     pageSize: 10 # 评论每页显示数量
     lang: zh-CN
     visitor: true
+    copyright: false
 
 
 ############################### Comments ############################### > end
