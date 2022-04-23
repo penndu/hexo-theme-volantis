@@ -444,7 +444,7 @@ comments:
   # Waline
   # https://waline.js.org/
   waline:
-    js: http://npm.elemecdn.com/@waline/client@next/dist/waline.js
+    js: https://npm.elemecdn.com/@waline/client@next/dist/waline.js
     path: # 全局评论地址 目前设置全局评论地址后visitor失效,这是waline的问题
     placeholder: 评论支持贴图，在评论框粘贴，自动传至图床，上传速度稍慢~  # 评论占位提示
     imageHosting: https://7bu.top/api/v1/upload # 图床api（默认注释使用base64）
