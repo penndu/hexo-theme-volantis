@@ -329,6 +329,7 @@ comments:
       pageSize: 10     # 每次请求获取数量
     heightLimit:
       content: 0       # 评论内容限高
+    useBackendConf: true # 在后端控制前端的配置
     
   # giscus
   # https://giscus.app
