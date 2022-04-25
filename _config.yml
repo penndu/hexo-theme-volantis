@@ -466,6 +466,14 @@ comments:
     visitor: true
     copyright: false
 
+  # Discuss
+  # https://discuss.js.org
+  discuss:
+    js: https://cdn.jsdelivr.net/npm/discuss/dist/Discuss.js # 建议锁定版本
+    serverURLs: # Discuss server address url
+    visitor: true
+    options: # https://discuss.js.org/Quick-Start.html#path
+
 
 ############################### Comments ############################### > end
 
@@ -730,7 +738,6 @@ sidebar:
           text: '本站总字数：'   # 需要启用 wordcount
           unit: '字'
         visitcounter:
-          service: leancloud  # busuanzi, leancloud
           siteuv:
             enable: false
             text: '本站访客数：'
