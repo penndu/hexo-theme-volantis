@@ -314,8 +314,8 @@ comments:
   # https://artalk.js.org/
   # https://github.com/ArtalkJS/Artalk
   artalk:
-    js: https://unpkg.com/artalk@2.2.7/dist/Artalk.js
-    css: https://unpkg.com/artalk@2.2.7/dist/Artalk.css
+    js: https://unpkg.com/artalk@2.2.8/dist/Artalk.js
+    css: https://unpkg.com/artalk@2.2.8/dist/Artalk.css
     server: https://artalk.dusays.com:443    # 修改为自建的后端服务地址
     path:  # 全局评论地址
     emoticons: https://cdn.dusays.com/info.json
