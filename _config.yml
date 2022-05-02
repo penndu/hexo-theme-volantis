@@ -1191,7 +1191,7 @@ rightmenus:
       - hr
       - {id: 'source_docs', name: '文明放置', icon: 'fa-solid fa-gamepad', link: 'https://cy.dusays.com/', group: 'link'}
       - {id: 'source_theme', name: '我的世界', icon: 'fa-solid fa-gamepad', link: 'https://dusays.com/365/', group: 'link'}
-    darkMode: 
+    darkMode:
       - {id: 'darkMode', name: '暗黑模式', icon: 'fa-solid fa-moon', event: 'volantis.dark.toggle()', group: 'darkMode'}
 ###
 
