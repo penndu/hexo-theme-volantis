@@ -1421,7 +1421,7 @@ custom_css:
     codefont:
       fontfamily: 'Comic Sans MS, UbuntuMono, Monaco'
       name: 'Comic Sans MS'
-      url: https://cdn.dusays.com/fonts/MiSans-Regular.ttf # https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/Monaco/Monaco.ttf
+      url: https://cdn.dusays.com/fonts/Comic-Sans-MS-Regular.ttf # https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/Monaco/Monaco.ttf
       weight: normal
       style: normal
 ############################### Custom css ############################### > end
