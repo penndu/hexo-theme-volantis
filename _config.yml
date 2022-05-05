@@ -1415,15 +1415,15 @@ custom_css:
     bodyfont:
       fontfamily: 'MiSans, "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
       name: 'MiSans'
-      url: https://cdn.dusays.com/fonts/MiSans-Regular.ttf # https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf
+      url: https://cdn.dusays.com/MiSans-Regular.woff2 # https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf
       weight: normal
       style: normal
     codefont:
-      fontfamily: 'Comic Sans MS, UbuntuMono, Monaco'
-      name: 'Comic Sans MS'
-      url: https://cdn.dusays.com/fonts/Comic-Sans-MS-Regular.ttf # https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/Monaco/Monaco.ttf
-      weight: normal
-      style: normal
+      fontfamily: 'Menlo, UbuntuMono, Monaco'
+      # name: 'Monaco'
+      # url: volantis-static/media/fonts/Monaco/Monaco.ttf # https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/Monaco/Monaco.ttf
+      # weight: normal
+      # style: normal
 ############################### Custom css ############################### > end
 
 
