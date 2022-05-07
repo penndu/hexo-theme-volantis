@@ -783,13 +783,13 @@ site_footer:
   # layout of footer: [aplayer, social, license, info, copyright]
   layout: [aplayer, social, license, info, copyright]
   social:
-    - img: https://jsdelivr.panbaidu.cn/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/020-rss.svg
+    - img: https://cdn.dusays.com/020-rss.svg
       url: atom.xml
-    - img: https://jsdelivr.panbaidu.cn/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/017-picasa.svg
+    - img: https://cdn.dusays.com/017-picasa.svg
       url: http://7bu.top/
-    - img: https://jsdelivr.panbaidu.cn/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/031-twitch.svg
+    - img: https://cdn.dusays.com/031-twitch.svg
       url: http://status.dusays.com/
-    - img: https://jsdelivr.panbaidu.cn/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/033-spotify.svg
+    - img: https://cdn.dusays.com/033-spotify.svg
       url: https://dusays.com/baidusitemap.xml
   # site source
   source: https://github.com/volantis-x/volantis-docs/
