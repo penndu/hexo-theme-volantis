@@ -33,6 +33,8 @@ See docs: https://volantis.js.org
 
 or:  https://vlts.cc
 
+or:  https://volantis.vercel.app
+
 ## Examples
 
 See examples: https://volantis.js.org/examples/
