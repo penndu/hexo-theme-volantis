@@ -709,6 +709,11 @@ sidebar:
           url: https://www.hackyh.com/
           rel: external nofollow noopener noreferrer
           target: _blank
+        - name: 凡梦星尘空间站
+          img: https://lisenhui.cn/img/avatar.png
+          url: https://lisenhui.cn/
+          rel: external nofollow noopener noreferrer
+          target: _blank
         - name: 杜老师说
           img: https://cdn.dusays.com/avatar.png
           url: http://dusays.com/
@@ -1183,7 +1188,7 @@ rightmenus:
   # 右键自定义菜单区域
   menus:
     link:
-      - {id: 'help', name: '去不图床', icon: 'fa-solid fa-file-image', link: 'https://test.7bu.top/', group: 'link'}
+      - {id: 'help', name: '去不图床', icon: 'fa-solid fa-file-image', link: 'https://7bu.top/', group: 'link'}
       - {id: 'examples', name: '提卡系统', icon: 'fa-solid fa-address-card', link: 'https://pay.dusays.com/', group: 'link'}
       - {id: 'contributors', name: '赞助平台', icon: 'fa-solid fa-money-check-alt', link: 'https://afdian.net/@teacherdu', group: 'link'}
       - hr
