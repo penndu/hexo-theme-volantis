@@ -326,6 +326,10 @@ comments:
       pageSize: 10     # 每次请求获取数量
     heightLimit:
       children: 0      # 评论区域限高
+    userImgUpload: {
+      url: 'https://7bu.top/api/v1/upload',
+      token: '1|SXnVbbmKpTgvDDRBbb6kdbStWoYyPPzeauHBkz4L'
+    }
     # 更多置项可在 Artalk 后端进行配置，详见 https://artalk.js.org/guide/backend/fe-control.html
     # 也可以在此处继续参考上方例子进行配置，不建议重写配置的字段除上方所述外还有：
     # [el, useBackendConf, pageKey, pageTitle, site, darkMode, pvEl]
