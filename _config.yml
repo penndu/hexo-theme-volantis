@@ -589,10 +589,10 @@ sidebar:
       display: [desktop, mobile]
       header:
         icon: fas fa-upload
-        title: 阿里云盘
-        url: https://pages.aliyundrive.com/mobile-page/web/beinvited.html?code=616d4cf
+        title: 息流工具
+        url: https://flowus.cn/login?code=PDZ708
       content:
-        - '<center><a href="https://pages.aliyundrive.com/mobile-page/web/beinvited.html?code=616d4cf" target="_blank"><img src="https://cdn.dusays.com/aliyundrive.jpg/2"></a></center>'
+        - '<center><a href="https://flowus.cn/login?code=PDZ708" target="_blank"><img src="https://cdn.dusays.com/aliyundrive.jpg/2"></a></center>'
     dao_hang:
       class: grid
       display: [desktop, mobile]
