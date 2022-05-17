@@ -314,8 +314,8 @@ comments:
   # https://artalk.js.org/
   # https://github.com/ArtalkJS/Artalk
   artalk:
-    js: https://o.static.szyink.com/storage/artalk/Artalk.js   # or https://unpkg.com/artalk@2.2.8/dist/Artalk.js
-    css: https://o.static.szyink.com/storage/artalk/Artalk.css # or https://unpkg.com/artalk@2.2.8/dist/Artalk.css
+    js: https://unpkg.com/artalk@2.2.8/dist/Artalk.js   # or https://unpkg.com/artalk@2.2.8/dist/Artalk.js
+    css: https://unpkg.com/artalk@2.2.8/dist/Artalk.css # or https://unpkg.com/artalk@2.2.8/dist/Artalk.css
     server: https://artalk.dusays.com    # 修改为自建的后端服务地址
     path:  # 全局评论地址
     placeholder: 评论支持贴图，在评论框粘贴，自动传至图床，上传速度稍慢~ # 评论占位
@@ -325,10 +325,6 @@ comments:
       pageSize: 10     # 每次请求获取数量
     heightLimit:
       children: 0      # 评论区域限高
-    userImgUpload: {
-      url: 'https://7bu.top/api/v1/upload',
-      token: '1|SXnVbbmKpTgvDDRBbb6kdbStWoYyPPzeauHBkz4L'
-    }
     # 更多置项可在 Artalk 后端进行配置，详见 https://artalk.js.org/guide/backend/fe-control.html
     # 也可以在此处继续参考上方例子进行配置，不建议重写配置的字段除上方所述外还有：
     # [el, useBackendConf, pageKey, pageTitle, site, darkMode, pvEl]
