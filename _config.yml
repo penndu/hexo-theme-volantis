@@ -726,6 +726,10 @@ sidebar:
           url: https://lisenhui.cn/
           rel: external nofollow noopener noreferrer
           target: _blank
+        - name: imtoken
+          img: https://cdn.dusays.com/avatar.png
+          url: https://czjy.cn/
+          target: _blank
         - name: 杜老师说
           img: https://cdn.dusays.com/avatar.png
           url: http://dusays.com/
