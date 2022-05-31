@@ -730,6 +730,10 @@ sidebar:
           img: https://cdn.dusays.com/avatar.png
           url: https://czjy.cn/
           target: _blank
+        - name: 小简博客
+          img: http://q1.qlogo.cn/g?b=qq&nk=747945307&s=640
+          url: https://blog.ideaopen.cn/
+          target: _blank
         - name: 杜老师说
           img: https://cdn.dusays.com/avatar.png
           url: http://dusays.com/
