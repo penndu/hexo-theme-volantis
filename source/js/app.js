@@ -409,7 +409,7 @@ const VolantisApp = (() => {
 
   // 设置 tabs 标签  【移动端 PC】
   fn.setTabs = () => {
-    let tabs = document.querySelectorAll('#l_main .tabs .nav-tabs')
+    let tabs = document.querySelectorAll('#l_main .tabs .nav-tabs, .widget .tabs .nav-tabs')
     if (!tabs) return
     tabs.forEach(function (e) {
       e.querySelectorAll('a').forEach(function (e) {
