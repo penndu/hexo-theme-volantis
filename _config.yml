@@ -65,12 +65,12 @@ volantis_static_cdn: https://unpkg.com/volantis-static@0.0.1649552113628/
 replace:
   - https://cdn.jsdelivr.net/npm/ => https://unpkg.com/
   - https://cdn.jsdelivr.net/gh/ => https://fastly.jsdelivr.net/gh/
-#  - https://unpkg.com/ => https://npm.elemecdn.com/
+  - https://unpkg.com/ => https://npm.elemecdn.com/
 
 # dns-prefetch preconnect x-dns-prefetch-control
 dns_prefetch:
   - https://unpkg.com
-  # - https://npm.elemecdn.com
+  - https://npm.elemecdn.com
 
 # 平滑滚动效果
 scroll_smooth: true
@@ -902,14 +902,14 @@ plugins:
 
   ######## Plugins to optimize the experience:
   # 代码高亮
-  code_highlight: prismjs # highlightjs or prismjs
+  code_highlight: highlightjs # highlightjs or prismjs
   # highlight.js
   highlightjs:
     copy_code: true
     # 如果开启以下配置, hexo.config.highlight.enable 需要设置为 false ; hexo.config.highlight.enable 设置为 true, 则以下配置无效
     # # 不再支持 v11.1.0 以下版本
-    # js: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/highlight.min.js # Please set hexo.config.highlight.enable = false !!!
-    # css: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/styles/default.min.css
+    js: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js # Please set hexo.config.highlight.enable = false !!!
+    css: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/styles/default.min.css
     # # # more: https://www.jsdelivr.com/package/npm/highlight.js?path=styles
 
   # prismjs
