@@ -318,8 +318,8 @@ comments:
   # https://artalk.js.org/
   # https://github.com/ArtalkJS/Artalk
   artalk:
-    js: https://o.static.szyink.com/storage/artalk/Artalk.js   # or https://unpkg.com/artalk@2.2.8/dist/Artalk.js
-    css: https://o.static.szyink.com/storage/artalk/Artalk.css # or https://unpkg.com/artalk@2.2.8/dist/Artalk.css
+    js: https://unpkg.com/artalk@2.3.3/dist/Artalk.js   # or https://unpkg.com/artalk@2.2.8/dist/Artalk.js
+    css: https://unpkg.com/artalk@2.3.3/dist/Artalk.css # or https://unpkg.com/artalk@2.2.8/dist/Artalk.css
     server: https://artalk.dusays.com    # 修改为自建的后端服务地址
     path:  # 全局评论地址
     placeholder: 评论支持贴图，在评论框粘贴，自动传至图床，勿传违禁图片~ # 评论占位
@@ -908,8 +908,8 @@ plugins:
     copy_code: true
     # 如果开启以下配置, hexo.config.highlight.enable 需要设置为 false ; hexo.config.highlight.enable 设置为 true, 则以下配置无效
     # # 不再支持 v11.1.0 以下版本
-    js: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js # Please set hexo.config.highlight.enable = false !!!
-    css: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/styles/default.min.css
+    js: https://npm.elemecdn.com/@highlightjs/cdn-assets@11.5.1/highlight.min.js # Please set hexo.config.highlight.enable = false !!!
+    css: https://npm.elemecdn.com/@highlightjs/cdn-assets@11.5.1/styles/a11y-dark.min.css
     # # # more: https://www.jsdelivr.com/package/npm/highlight.js?path=styles
 
   # prismjs
@@ -928,7 +928,7 @@ plugins:
 
   # https://scrollrevealjs.org/api/reveal.html
   scrollreveal:
-    enable: true
+    enable: false
     js: volantis-static/libs/scrollreveal/dist/scrollreveal.min.js # https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js
     distance: 32px
     duration: 800 # ms
