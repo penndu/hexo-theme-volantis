@@ -878,8 +878,8 @@ site_footer:
   source: https://github.com/volantis-x/volantis-docs/
   # analytics using leancloud
   analytics: >
-    <span id="busuanzi_site_pv">本站总访问量为 <span id='number'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span> 次</span>
-    <span id="busuanzi_site_uv">访客数为 <span id='number'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span> 人</span>
+    <span id="busuanzi_value_site_pv">本站总访问量为 <span id='number'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span> 次</span>
+    <span id="busuanzi_value_site_uv">访客数为 <span id='number'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span> 人</span>
   # site copyright
   copyright: '「Powered by <a href="https://webify.cloudbase.net/" target="_blank" rel="noopener noreferrer">CloudBase Webify</a>」<br><embed src="https://cdn.dusays.com/7bu.svg" type="image/svg+xml"> <embed src="https://cdn.dusays.com/yinsi.svg" type="image/svg+xml"> <embed src="https://cdn.dusays.com/mianze.svg" type="image/svg+xml"> <embed src="https://cdn.dusays.com/says.svg" type="image/svg+xml"><br><embed src="https://cdn.dusays.com/fb.svg" type="image/svg+xml"> <embed src="https://cdn.dusays.com/icp.svg" type="image/svg+xml"> <embed src="https://cdn.dusays.com/liao.svg" type="image/svg+xml"> <embed src="https://cdn.dusays.com/copyright.svg" type="image/svg+xml">'
   # You can add your own property here. (Support markdown, for example: br: '<br>')
