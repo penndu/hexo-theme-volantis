@@ -625,9 +625,9 @@ sidebar:
       header:
         icon: fas fa-dollar-sign
         title: 收费服务
-        url: https://dusays.com/sffw
+        url: https://dusays.com/sffw/
       content:
-        - '<center><a href="https://dusays.com/sffw"><img src="https://cdn.dusays.com/sffw.gif"></a><center>'
+        - '<center><a href="https://dusays.com/sffw/"><img src="https://cdn.dusays.com/sffw.gif"></a><center>'
     vpsor:
       class: text
       display: [desktop, mobile]
