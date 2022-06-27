@@ -240,13 +240,13 @@ article:
       # ----------------
       # 版权声明组件 (for layout: post)
       copyright:
-        enable: false
+        enable: true
         permalink: '本文永久链接是：'
         content:
           - '博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议'
           - permalink
          # 自定义版权组件：精细到文章的版权声明
-        custom: false # 开启后替代上方内容的版权显示
+        custom: true # 开启后替代上方内容的版权显示
         customData:
           default: type1  # 默认授权声明
           #############################
@@ -817,12 +817,12 @@ sidebar:
           text: '已运行时间：'
           unit: '天'
         wordcount:
-          enable: false
+          enable: true
           text: '本站总字数：'   # 需要启用 wordcount
           unit: '字'
         visitcounter:
           siteuv:
-            enable: false
+            enable: true
             text: '本站访客数：'
             unit: '人'
           sitepv:
@@ -1193,7 +1193,7 @@ plugins:
 
 ### 自定义右键 新
 rightmenus:
-  enable: false
+  enable: true
   # 右键菜单项及加载顺序
   # 内容示例：plugins.[组名], menus.[组名], hr(分割线，推荐去线留白), music(音乐控制器)
   order:
