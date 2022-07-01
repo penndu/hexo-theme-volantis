@@ -28,7 +28,7 @@
       pvEl: '#artalk_visitors',
 
       <% if(!!theme.comments.artalk.imageUploader?.api){ %>
-      imgUploader: function(file) {
+      imageUploader: function(file) {
         let headers = new Headers();
         headers.set('Accept', 'application/json');
         <% if(!!theme.comments.artalk.imageUploader?.token) { %>
