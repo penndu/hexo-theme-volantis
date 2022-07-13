@@ -793,6 +793,10 @@ sidebar:
           img: https://www.felixchen0707.cn/img/theme_img/profile.jpg
           url: https://www.felixchen0707.cn/
           target: _blank
+        - name: 十年之约论坛
+          img: https://xyears.cn/view/img/logo.png
+          url: https://xyears.cn/
+          target: _blank
         - name: 杜老师说
           img: https://cdn.dusays.com/avatar.png
           url: http://dusays.com/
