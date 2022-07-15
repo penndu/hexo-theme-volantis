@@ -65,12 +65,12 @@ volantis_static_cdn: https://unpkg.com/volantis-static@0.0.1654736714924/
 replace:
   - https://cdn.jsdelivr.net/npm/ => https://unpkg.com/
   - https://cdn.jsdelivr.net/gh/ => https://fastly.jsdelivr.net/gh/
-  - https://unpkg.com/ => https://cdn.dusays.com/
+  - https://unpkg.com/ => https://adn.arcitcgn.cn/
 
 # dns-prefetch preconnect x-dns-prefetch-control
 dns_prefetch:
   - https://unpkg.com
-  - https://npm.elemecdn.com
+  - https://adn.arcitcgn.cn
 
 # 平滑滚动效果
 scroll_smooth: true
