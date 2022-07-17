@@ -38,7 +38,7 @@
     <link rel="shortcut icon" type='image/x-icon' href="<%- url_for(config.favicon) %>">
   <%_ } _%>
   <link rel="preload" href="<%- theme.cdn.map.css.style %>" as="style">
-  <link rel="preload" href="/content.json">
+  <link rel="preload" href="/content.json" as="fetch">
   <%- generate_preload_fontfamily(theme) %>
   <!-- feed -->
   <%_ if (config.feed && config.feed.path){ _%>
