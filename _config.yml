@@ -681,7 +681,7 @@ sidebar:
       rows:
         - name: 贝贝吧
           img: https://cdn.dusays.com/avatar.png
-          url: http://www.hibbba.com/
+          url: https://www.hibbba.com/
           rel: external nofollow noopener noreferrer
           target: _blank
         - name: Colsrch
@@ -696,7 +696,7 @@ sidebar:
           target: _blank
         - name: Blogin
           img: https://bu.dusays.com/2020/11/13/b54215c2293a9.jpg
-          url: http://2dogz.cn/
+          url: https://2dogz.cn/
           rel: external nofollow noopener noreferrer
           target: _blank
         - name: 科研软件小站
