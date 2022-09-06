@@ -3,7 +3,7 @@
     const navItems = document.querySelectorAll(".toc li");
     if (!navItems.length) return;
     const targets = []
-    const sections = navItems.forEach((element) => {
+    const sections = Array.from(navItems).forEach((element) => {
       const link = element.querySelector(".toc-link");
       const target = document.getElementById(
         link.getAttribute("href") ? decodeURI(link.getAttribute("href")).replace("#", "") : link.getAttribute("toc-action").split("toc-")[1] // 兼容 hexo-blog-encrypt
