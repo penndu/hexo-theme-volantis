@@ -308,12 +308,12 @@ article:
       # 相关文章，需要安装插件 (for layout: post)
       # npm i hexo-related-popular-posts
       related_posts:
-        enable: true
+        enable: false
         title: 相关文章
         icon: fa-solid fa-bookmark
-        max_count: 3
+        max_count: 5
         # 设为空则不使用文章头图
-        placeholder_img: #https://gcore.jsdelivr.net/gh/MHG-LAB/cron@gh-pages/bing/bing.jpg
+        placeholder_img: https://gcore.jsdelivr.net/gh/MHG-LAB/cron@gh-pages/bing/bing.jpg
       # ----------------
       # 版权声明组件 (for layout: post)
       copyright:
