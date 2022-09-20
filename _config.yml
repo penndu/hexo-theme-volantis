@@ -184,8 +184,9 @@ navbar:
       url: archives/
     - name: 友链
       icon: fa-solid fa-link
-      url: friends/
       rows:
+        - name: 友情链接
+          url: https://dusays.com/friends/
         - name: 友链文章
           url: https://dusays.com/fcircle/
     - name: 留言
