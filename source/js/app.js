@@ -123,9 +123,9 @@ const VolantisApp = (() => {
             case 'latest_comments':
               let avatar = '';
               if (item?.link === "") {
-                avatar = `<div class="avatar"><img src="https://cravatar.cn/avatar/${item?.email_encrypted}?d=mp&amp;s=80"></div>`
+                avatar = `<div class="avatar"><img src="https://cdn.sep.cc/avatar/${item?.email_encrypted}?d=mp&amp;s=80"></div>`
               } else {
-                avatar = `<div class="avatar"><a target="_blank" rel="noreferrer noopener nofollow" href="${item?.link}"><img src="https://cravatar.cn/avatar/${item?.email_encrypted}?d=mp&amp;s=80"></a></div>`
+                avatar = `<div class="avatar"><a target="_blank" rel="noreferrer noopener nofollow" href="${item?.link}"><img src="https://cdn.sep.cc/avatar/${item?.email_encrypted}?d=mp&amp;s=80"></a></div>`
               }
               let content = item?.content.replace(/<img\b.*?(?:\>|\/>)/g, '[图片]');
               if (content.length > 120) {
