@@ -786,6 +786,10 @@ sidebar:
           url: https://czjy.cn
           rel: external nofollow noopener noreferrer
           target: _blank
+        - name: MetaMask
+          url: https://www.sxhxtt.cn
+          rel: external nofollow noopener noreferrer
+          target: _blank
     # webinfo widget
     webinfo:
       class: webinfo
