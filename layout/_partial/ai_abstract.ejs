@@ -41,12 +41,6 @@ function insertAIDiv(selector) {
   aiTitleTextDiv.textContent = 'AI摘要';
   aiTitleDiv.appendChild(aiTitleTextDiv);
 
-  const aiTagDiv = document.createElement('div');
-  aiTagDiv.className = 'tianliGPT-tag';
-  aiTagDiv.id = 'tianliGPT-tag';
-  aiTagDiv.textContent = 'TianliGPT';
-  aiTitleDiv.appendChild(aiTagDiv);
-
   const aiExplanationDiv = document.createElement('div');
   aiExplanationDiv.className = 'tianliGPT-explanation';
   aiExplanationDiv.innerHTML = '生成中...' + '<span class="blinking-cursor"></span>';
