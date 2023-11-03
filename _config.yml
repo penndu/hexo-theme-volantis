@@ -40,9 +40,9 @@ cdn_system:
     # 自定义配置 使用 "theme/_cdn.yml" 中的名称作为配置项的键
     custom:
       busuanzi: https://npm.elemecdn.com/penndu@1.0.0/bsz.js  # 杜老师友情赞助
-      artalk_js: https://npm.elemecdn.com/artalk@2.5.5/dist/Artalk.js
-      artalk_css: https://npm.elemecdn.com/artalk@2.5.5/dist/Artalk.css
-      algolia_search_v4: https://npm.elemecdn.com/algoliasearch@4.18.0/dist/algoliasearch-lite.umd.js
+      artalk_js: https://npm.onmicrosoft.cn/artalk/dist/ArtalkLite.js
+      artalk_css: https://npm.onmicrosoft.cn/artalk/dist/ArtalkLite.css
+      algolia_search_v4: https://npm.onmicrosoft.cn/algoliasearch/dist/algoliasearch-lite.umd.js
       #volantis_style: /css/style.css
       #volantis_app: /js/app.js
 
@@ -759,14 +759,6 @@ sidebar:
         title: 首页链接
         url: /friends/
       rows:
-        - name: imtoken钱包
-          url: https://www.imtokne.cn
-          rel: external nofollow noopener noreferrer
-          target: _blank
-        - name: Fan Blog
-          url: https://blog.fanwu.link
-          rel: external nofollow noopener noreferrer
-          target: _blank
         - name: 贝贝吧
           url: https://www.hibbba.com
           rel: external nofollow noopener noreferrer
@@ -783,10 +775,6 @@ sidebar:
           url: http://www.ygbks.com
           rel: external nofollow noopener noreferrer
           target: _blank
-        - name: 云帆沧海
-          url: https://yf-ch.com
-          rel: external nofollow noopener noreferrer
-          target: _blank
         - name: 轻笑Chuckle
           url: https://www.chuckle.top
           rel: external nofollow noopener noreferrer
@@ -797,10 +785,6 @@ sidebar:
           target: _blank
         - name: WindBack
           url: https://wndbac.cn
-          rel: external nofollow noopener noreferrer
-          target: _blank
-        - name: Wing酱的部落格
-          url: https://www.yjlearn.cn
           rel: external nofollow noopener noreferrer
           target: _blank
         - name: 懒人素材网
@@ -815,20 +799,24 @@ sidebar:
           url: https://www.azplstudio.top
           rel: external nofollow noopener noreferrer
           target: _blank
-        - name: bill
-          url: https://1703.site
-          rel: external nofollow noopener noreferrer
-          target: _blank
         - name: 免费主机
           url: https://www.swb.cc
           rel: external nofollow noopener noreferrer
           target: _blank
-        - name: 樱花小镇
-          url: https://blog.sakura.vin
-          rel: external nofollow noopener noreferrer
-          target: _blank
         - name: 星萌亦派
           url: https://meta-sns.com
+          rel: external nofollow noopener noreferrer
+          target: _blank
+        - name: 乙未博客
+          url: https://yvii.cn
+          rel: external nofollow noopener noreferrer
+          target: _blank
+        - name: 陈冬冬博客
+          url: https://www.chendd.cn
+          rel: external nofollow noopener noreferrer
+          target: _blank
+        - name: 牛魔博客
+          url: https://www.nmwbk.com
           rel: external nofollow noopener noreferrer
           target: _blank
     # webinfo widget
@@ -937,13 +925,13 @@ site_footer:
     <span>本站总访问量为 <span id='busuanzi_value_site_pv'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span> 次</span>
     <span>访客数为 <span id='busuanzi_value_site_uv'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span> 人</span>
   # site copyright
-  copyright: '[萌ICP备20229624号](https://icp.gov.moe/?keyword=20229624) | [异次元之旅](https://travel.moe/go.html?travel=on) | 推荐 <a href="https://su.sctes.com/register?code=8sfvxx4367m28" target="_blank"><font color="red">无畏云 CDN</font></a>、<a href="https://tyucdn.com" target="_blank"><font color="red">天御云 CDN</font>、<a href="https://www.chuqiyun.com/aff/YBNPVMDA" target="_blank"><font color="red">初七云 CDN</font></a><br><embed src="https://npm.elemecdn.com/dusays@1.0.0/7bu.svg" type="image/svg+xml"> <embed src="https://npm.elemecdn.com/dusays@1.0.0/yinsi.svg" type="image/svg+xml"> <embed src="https://npm.elemecdn.com/dusays@1.0.0/mianze.svg" type="image/svg+xml"> <embed src="https://npm.elemecdn.com/dusays@1.0.0/says.svg" type="image/svg+xml"><br><embed src="https://npm.elemecdn.com/dusays@1.0.0/fb.svg" type="image/svg+xml"> <embed src="https://npm.elemecdn.com/dusays@1.0.0/icp.svg" type="image/svg+xml"> <embed src="https://npm.elemecdn.com/dusays@1.0.0/liao.svg" type="image/svg+xml"> <embed src="https://npm.elemecdn.com/dusays@1.0.0/copyright.svg" type="image/svg+xml">'
+  copyright: '[萌ICP备20229624号](https://icp.gov.moe/?keyword=20229624) | [异次元之旅](https://travel.moe/go.html?travel=on) | 推荐 <a href="https://tyucdn.com" target="_blank"><font color="red">天御云 CDN</font>、<a href="https://www.chuqiyun.com/aff/YBNPVMDA" target="_blank"><font color="red">初七云 CDN</font></a><br><embed src="https://npm.elemecdn.com/dusays@1.0.0/7bu.svg" type="image/svg+xml"> <embed src="https://npm.elemecdn.com/dusays@1.0.0/yinsi.svg" type="image/svg+xml"> <embed src="https://npm.elemecdn.com/dusays@1.0.0/mianze.svg" type="image/svg+xml"> <embed src="https://npm.elemecdn.com/dusays@1.0.0/says.svg" type="image/svg+xml"><br><embed src="https://npm.elemecdn.com/dusays@1.0.0/fb.svg" type="image/svg+xml"> <embed src="https://npm.elemecdn.com/dusays@1.0.0/icp.svg" type="image/svg+xml"> <embed src="https://npm.elemecdn.com/dusays@1.0.0/liao.svg" type="image/svg+xml"> <embed src="https://npm.elemecdn.com/dusays@1.0.0/copyright.svg" type="image/svg+xml">'
   # You can add your own property here. (Support markdown, for example: br: '<br>')
   br: '<br>'
-  link1: '[科研软件小站](https://www.sciencesoft.cn/) | [Dr.Pika’s Blog](https://blog.drpika.com/) | [小简博客](https://blog.ideaopen.cn/) | [joojen个人博客](https://joojen.com/) | [BeaCox](https://blog.beacox.space/) | [Cold’blog](https://www.coldyun.cn/) | [轻淡时光](https://www.lybblog.cn/) | [辛未羊的网络日志](https://panqiincs.me/) | [linkkk的小屋](https://www.linkkk.top/) | [网友小宋](https://xyzbz.cn/)'
-  link2: '[xaoxuu](https://xaoxuu.com/) | [Felix_Chenの基地](https://blog.felixchen0707.cn/) | [obaby@mars](https://h4ck.org.cn/) | [启涵的博客](https://blog.1id.top/) | [Ethan.Tzy](https://tzy1997.com/) | [Ryan’s Blog](https://www.moezz.cn/) | [辉辉狐的笔记](https://note.ifoxhui.com/) | [字节星球](https://www.bytecho.net/) | [兔say博客](https://blog.rabbitwebs.cn/) | [ZhangZ](https://www.zhangz.cc/)'
-  link3: '[Fgaoxing](https://www.yt-blog.top/) | [东京日志](http://www.hellokvm.com) | [做棵大树](https://beatree.cn/) | [晓雨杂记](https://lihaoyu.cn/) | [云晓晨博客](https://www.catchwang.com/) | [沧浪湖](https://azurelake.cn/) | [九夏小站](https://blog.inekoxia.com/) | [阿巴ing的笨蛋博客](https://abaing.com/) | [棋の小站](https://blog.qi1.zone/) | [艺术细菌](https://penlife.cn/)'
-  link4: '[龙鲲博客](https://lkblog.net/) | [彬红茶博客](http://blog.binhongtea.top/) | [杜老师说](https://dusays.com/) | [友链申请](https://dusays.com/friends/)'
+  link1: '[Dr.Pika’s Blog](https://blog.drpika.com/) | [joojen个人博客](https://joojen.com/) | [BeaCox](https://blog.beacox.space/) | [Cold’blog](https://www.coldyun.cn/) | [轻淡时光](https://www.lybblog.cn/) | [辛未羊的网络日志](https://panqiincs.me/) | [linkkk的小屋](https://www.linkkk.top/) | [网友小宋](https://xyzbz.cn/) | [xaoxuu](https://xaoxuu.com/) | [Felix_Chenの基地](https://blog.felixchen0707.cn/)'
+  link2: '[obaby@mars](https://h4ck.org.cn/) | [启涵的博客](https://blog.1id.top/) | [Ethan.Tzy](https://tzy1997.com/) | [Ryan’s Blog](https://www.moezz.cn/) | [字节星球](https://www.bytecho.net/) | [ZhangZ](https://www.zhangz.cc/) | [东京日志](http://www.hellokvm.com/) | [做棵大树](https://beatree.cn/) | [沧浪湖](https://azurelake.cn/) | [九夏小站](https://blog.inekoxia.com/)'
+  link3: '[辉辉狐的笔记](https://note.ifoxhui.com/) | [龙鲲博客](https://lkblog.net/) | [晓雨杂记](https://lihaoyu.cn/) | [樱花小镇](https://blog.sakura.vin/) | [Wing酱的部落格](https://www.yjlearn.cn/) | [科研软件小站](https://www.sciencesoft.cn/) | [LoCCaiの小窝](https://blog.loccai.top/) | [小旭の破站](https://www.sicx.top/) | [终成博客](https://blog.zc.wiki/) | [Fgaoxing](https://www.yt-blog.top/)'
+  link4: '[阿巴ing的笨蛋博客](https://abaing.com/) | [彬红茶博客](https://blog.binhongtea.top/) | [杜老师说](https://dusays.com/) | [友链申请](https://dusays.com/friends/)'
   link5: ''
 ############################### Site Footer ############################### > end
 
@@ -1175,7 +1163,7 @@ plugins:
     # 配置项按照yml格式继续填写即可
     appId: 38GEBsbldifhQHRcJvVTrIjd-gzGzoHsz # your appID
     appKey: XLpNu93zlTMOQsCtOmpniJwi # your appKEY
-    serverURL: https://s.dusays.com #leancloud绑定的api访问域名，使用国际版的话不需要填写
+    # serverURL: https://s.dusays.com #leancloud绑定的api访问域名，使用国际版的话不需要填写
     # lang: # 语言设置，zh为汉语，en为英语，es为西班牙语。默认为汉语
     # pageSize: #每页说说的显示数量
     # shuoPla: #在编辑说说的输入框中的占位符
@@ -1265,7 +1253,7 @@ plugins:
   # AI摘要
   # https://github.com/zhheo/Post-Abstract-AI
   tianliGPT:
-    enable: true
+    enable: false
     key: b82B9zt1u5F4vS02DVNH
     wordLimit: 10000 # 摘要字数限制 (⚠️危险：更改此变量损失已消耗过的key，因为你提交的内容发生了变化。)
     typewriter: true # 打字机效果
