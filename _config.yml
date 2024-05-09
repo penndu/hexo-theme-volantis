@@ -824,10 +824,10 @@ sidebar:
           enable: true
           siteuv:
             text: '本站访客数：'
-            unit: '人'
+            unit: ' 人'
           sitepv:
             text: '本站总访问量：'
-            unit: '次'
+            unit: ' 次'
         lastupd:
           enable: true
           friendlyShow: true    # 更友好的时间显示
