@@ -137,6 +137,7 @@ dns_prefetch:
   - https://cdn.bootcdn.net
   - https://cdnjs.onmicrosoft.cn
   - https://jsd.onmicrosoft.cn
+  - https://m.dusays.com
 
 # 平滑滚动效果
 scroll_smooth: true
