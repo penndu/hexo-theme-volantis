@@ -87,6 +87,58 @@ const VolantisApp = (() => {
     document.body.oncopy = function () {
       fn.messageCopyright()
     };
+
+    // artalk 侧边栏
+    fn.genArtalkContent('#widget-artalk-hotarticle', 'pv_most_pages', 10, 600000); // 热门文章
+    fn.genArtalkContent('#widget-artalk-hotpages', 'comment_most_pages', 10, 600000); // 热评文章
+    fn.genArtalkContent('#widget-artalk-hotcomment', 'latest_comments', 5, 120000); // 最新评论
+  }
+
+  fn.genArtalkContent = async (selector, type, limit, time) => {
+    const genArtalkTime = localStorage.getItem(`GenArtalkTime-${type}`) || 0;
+    const element = document.querySelector(selector);
+    if (!!element) {
+      const content = element.querySelector('.tab-pane-content');
+      try {
+        let json;
+        if (genArtalkTime > Date.now()) {
+          json = JSON.parse(localStorage.getItem(type))
+        } else {
+          const response = await fetch(`https://artalk.dusays.com/api/v2/stats/${type}?site_name=杜老师说&limit=${limit}`);
+          json = (await response.json()).data;
+          localStorage.setItem(type, JSON.stringify(json))
+          localStorage.setItem(`GenArtalkTime-${type}`, Date.now() + time)
+        }
+        let html = '';
+        json.forEach((item, index) => {
+          switch (type) {
+            case 'pv_most_pages':
+            case 'comment_most_pages':
+              const title = item?.title.replaceAll(' - 杜老师说', '');
+              html = `${html}<li><span>${index + 1}</span><a title='${title}' href='${item?.key}'>${title}</a></li>`;
+              break;
+            case 'latest_comments':
+              let avatar = '';
+              if (item?.link === "") {
+                avatar = `<div class="avatar"><img src="https://cdn.sep.cc/avatar/${item?.email_encrypted}?d=mp&amp;s=80"></div>`
+              } else {
+                avatar = `<div class="avatar"><a target="_blank" rel="noreferrer noopener nofollow" href="${item?.link}"><img src="https://cdn.sep.cc/avatar/${item?.email_encrypted}?d=mp&amp;s=80"></a></div>`
+              }
+              let content = item?.content.replace(/<img\b.*?(?:\>|\/>)/g, '[图片]');
+              if (content.length > 120) {
+                content = `${content.substring(0, 120)}...`
+              }
+              html = `${html}<li>${avatar}<div class="main"><a href="${item?.page_key}#atk-comment-${item?.id}"><p>${item?.nick}</p><p>${content}</p></a></div></li>`;
+              break;
+          }
+        })
+        content.innerHTML = `<ul>${html}</ul>`;
+        if (typeof pjax !== 'undefined') pjax.refresh(content)
+      } catch (error) {
+        console.error(error)
+        content.innerHTML = `加载失败 /(ㄒoㄒ)/~~`
+      }
+    }
   }
 
   fn.restData = () => {
@@ -351,7 +403,7 @@ const VolantisApp = (() => {
 
   // 设置 tabs 标签  【移动端 PC】
   fn.setTabs = () => {
-    let tabs = document.querySelectorAll('#l_main .tabs .nav-tabs')
+    let tabs = document.querySelectorAll('#l_main .tabs .nav-tabs, .widget .tabs .nav-tabs')
     if (!tabs) return
     tabs.forEach(function (e) {
       e.querySelectorAll('a').forEach(function (e) {
